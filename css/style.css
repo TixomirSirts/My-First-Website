@@ -1,15 +1,12 @@
  nav, h1, h2, h3, span {
     color:floralwhite;
     text-align-last: center;
-    
-    /*
-    width: 500px;
-    border: 1px solid black; 
-    */    
 }
 
 img {
     border: 1px solid goldenrod;
+    width: 100px;
+    height: 100px;
 }
 
 html {
@@ -27,21 +24,20 @@ body {
 }
 
 button {
-    background-color: floralwhite;
+    background-color: cornflowerblue;
     border: 1px solid goldenrod;
-    color: indigo;
+    color: floralwhite;
     font-size: 16px;
     font-family: 'Bona Nova', serif;
     cursor: pointer;
 }
 
 button:active {
-    background-color: indigo;
+    background-color: floralwhite;
     color: gold;
-    border-color: indigo;
 }
 
-p, li {
+p, ul, li {
     color:floralwhite;
 }
 

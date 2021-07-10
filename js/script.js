@@ -1,4 +1,4 @@
-var guestName = document.querySelector('name');
+var guestName = document.querySelector('span');
 var nameButton = document.querySelector('button');
 
 guestName.textContent = 'гость';
@@ -8,7 +8,7 @@ function SetGuestName() {
     if (WUName == 0) {
         WUName = 'гость';
     } else {
-        localStorage.setItem('name', WUName);
+        localStorage.setItem('span', WUName);
         guestName.textContent = WUName;
     }
 }
