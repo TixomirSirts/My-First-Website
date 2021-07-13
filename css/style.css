@@ -3,8 +3,14 @@
     text-align-last: center;
 }
 
+#guestName {
+    border: 10px ridge green;
+    padding: 10px;
+    font-size: large;
+}
+
 img {
-    border: 1px solid goldenrod;
+    border: 5px ridge goldenrod;
     width: 100px;
     height: 100px;
 }
@@ -20,16 +26,17 @@ body {
     margin: 10px auto;
     background-color: indigo;
     padding: 20px 20px 20px 20px;
-    border: 3px solid goldenrod;
+    border: 5px ridge goldenrod;
 }
 
-button {
+h3 button {
     background-color: cornflowerblue;
     border: 1px solid goldenrod;
     color: floralwhite;
     font-size: 16px;
     font-family: 'Bona Nova', serif;
     cursor: pointer;
+    font-weight: bold;
 }
 
 button:active {

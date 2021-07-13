@@ -1,15 +1,15 @@
-var guestName = document.querySelector('span');
+var guestName = document.querySelector('button');
 var nameButton = document.querySelector('button');
 
-guestName.textContent = 'гость';
+guestName.textContent = 'Приветствую, гость!';
 
 function SetGuestName() {
     let WUName = prompt('Как тебя зовут?', 'гость');
-    if (WUName == 0) {
+    if (WUName == '') {
         WUName = 'гость';
     } else {
         localStorage.setItem('span', WUName);
-        guestName.textContent = WUName;
+        guestName.textContent = 'Приветствую, ' + WUName + '!';
     }
 }
 
